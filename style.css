@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #00ff88, #003d2b);
+}
+
+button {
+  background: #00ff88;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.logos {
+  background: #0d0d0d;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.logos-title {
+  color: #888;
+  margin-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.logos-container img {
+  height: 40px;
+  opacity: 0.7;
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+
+.logos-container img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  gap: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: #00ff88;
+  color: black;
+}
+
+.highlight {
+  background: #111;
+  padding: 50px;
+}
+
+.cta {
+  background: #00ff88;
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+
+.refs {
+  padding: 50px;
+  background: #111;
+}
