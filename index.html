@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>BovespaX</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -34,9 +36,9 @@
     <p class="logos-title">TRABALHO DESENVOLVIDO COM BASE EM:</p>
 
     <div class="logos-container">
-      <img src="img/unasp.png" alt="UNASP">
-      <img src="img/marcosmatico.png" alt="MarcosMatico">
-      <img src="img/bahia.png" alt="Bahia">
+      <img src="assets/unasp.png" alt="UNASP">
+      <img src="assets/marcosmatico.png" alt="MarcosMatico">
+      <img src="assets/bahia.png" alt="Bahia">
     </div>
   </div>
 </section>
@@ -67,49 +69,134 @@
 
 <!-- IMPACTO -->
 <section class="impact">
-  <div class="container">
+  <div class="section-header">
     <h2>Impacto na vida dos brasileiros</h2>
+    <p>Como a bolsa influencia diretamente o seu dia a dia</p>
 
     <div class="cards">
-      <div class="card">Afeta preços de produtos</div>
-      <div class="card">Influência empregos</div>
-      <div class="card">Impacta economia</div>
-    </div>
+  <div class="card">
+    <i class="fas fa-tags icon"></i>
+    <p>Afeta preços de produtos</p>
+  </div>
+
+  <div class="card">
+    <i class="fas fa-briefcase icon"></i>
+    <p>Influencia empregos</p>
+  </div>
+
+  <div class="card">
+    <i class="fas fa-chart-line icon"></i>
+    <p>Impacta a economia</p>
+  </div>
+</div>
   </div>
 </section>
 
 <!-- MERCADO -->
 <section id="mercado">
-  <div class="container grid">
+  <div class="container">
 
-    <div>
-      <h2>Commodities</h2>
-      <ul>
-        <li>Petróleo</li>
-        <li>Ouro</li>
-        <li>Soja</li>
-        <li>Minério de ferro</li>
-      </ul>
+    <div class="section-header">
+      <h2>Mercado Financeiro</h2>
+      <p>Principais ativos negociados na bolsa brasileira</p>
     </div>
 
-    <div>
-      <h2>Moedas</h2>
-      <ul>
-        <li>Dólar (USD)</li>
-        <li>Euro (EUR)</li>
-        <li>Real (BRL)</li>
-      </ul>
-    </div>
+    <div class="market-grid">
 
+      <!-- COMMODITIES -->
+      <div class="market-box">
+        <h3>Commodities</h3>
+
+        <div class="market-items">
+          <div class="market-item">
+            <i class="fas fa-oil-can"></i>
+            <span>Petróleo</span>
+          </div>
+
+          <div class="market-item">
+            <i class="fas fa-coins"></i>
+            <span>Ouro</span>
+          </div>
+
+          <div class="market-item">
+            <i class="fas fa-seedling"></i>
+            <span>Soja</span>
+          </div>
+
+          <div class="market-item">
+            <i class="fas fa-industry"></i>
+            <span>Minério de ferro</span>
+          </div>
+        </div>
+
+        <p class="market-desc">
+          Alta demanda global e proteção contra inflação.
+        </p>
+      </div>
+
+      <!-- MOEDAS -->
+      <div class="market-box">
+        <h3>Moedas</h3>
+
+        <div class="market-items">
+          <div class="market-item">
+            <i class="fas fa-dollar-sign"></i>
+            <span>Dólar (USD)</span>
+          </div>
+
+          <div class="market-item">
+            <i class="fas fa-euro-sign"></i>
+            <span>Euro (EUR)</span>
+          </div>
+
+          <div class="market-item">
+            <i class="fas fa-money-bill-wave"></i>
+            <span>Real (BRL)</span>
+          </div>
+        </div>
+
+        <p class="market-desc">
+          Proteção cambial e valorização em cenários de crise.
+        </p>
+      </div>
+
+    </div>
   </div>
 </section>
 
 <!-- ALTA / BAIXA -->
 <section class="highlight">
   <div class="container">
-    <h2>Alta vs Baixa</h2>
-    <p><strong>Alta:</strong> crescimento econômico</p>
-    <p><strong>Baixa:</strong> incerteza e queda</p>
+
+    <div class="section-header">
+      <h2>Alta vs Baixa</h2>
+      <p>Entenda como o mercado se comporta em diferentes cenários</p>
+    </div>
+
+    <div class="compare-grid">
+
+      <!-- ALTA -->
+      <div class="compare-box alta">
+        <h3>📈 Bolsa em Alta</h3>
+        <ul>
+          <li>Valorização das ações</li>
+          <li>Confiança dos investidores</li>
+          <li>Crescimento econômico</li>
+        </ul>
+      </div>
+
+      <!-- BAIXA -->
+      <div class="compare-box baixa">
+        <h3>📉 Bolsa em Baixa</h3>
+        <ul>
+          <li>Queda nos preços</li>
+          <li>Incerteza no mercado</li>
+          <li>Possíveis crises</li>
+        </ul>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
@@ -118,41 +205,120 @@
   <div class="container">
     <h2>Tipos de Investidores</h2>
 
-    <div class="cards">
-      <div class="card">Conservador</div>
-      <div class="card">Moderado</div>
-      <div class="card">Arrojado</div>
-    </div>
+    <div class="card">
+  <i class="fas fa-shield-alt icon"></i>
+  <p>Conservador</p>
+</div>
+
+<div class="card">
+  <i class="fas fa-balance-scale icon"></i>
+  <p>Moderado</p>
+</div>
+
+<div class="card">
+  <i class="fas fa-rocket icon"></i>
+  <p>Arrojado</p>
+</div>
   </div>
 </section>
 
 <!-- MUNDO -->
 <section>
   <div class="container">
-    <h2>Relação Global</h2>
-    <p>
-      A B3 reage a eventos globais como crises econômicas e decisões de grandes países.
-    </p>
+
+    <div class="section-header">
+      <h2>Relação Global</h2>
+      <p>A B3 não funciona isoladamente — ela reage ao mundo</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <i class="fas fa-globe icon"></i>
+        <p>Eventos internacionais impactam o Brasil</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-landmark icon"></i>
+        <p>Decisões dos EUA influenciam o mercado</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-bolt icon"></i>
+        <p>Crises globais geram instabilidade</p>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
 <!-- CAPITAL -->
 <section>
   <div class="container">
-    <h2>Acumulação de Capital</h2>
-    <p>Investir dinheiro para gerar mais lucro ao longo do tempo.</p>
+
+    <div class="section-header">
+      <h2>Acumulação de Capital</h2>
+      <p>Como o dinheiro cresce dentro do mercado</p>
+    </div>
+
+    <div class="flow">
+
+      <div class="flow-step">
+        <i class="fas fa-coins"></i>
+        <p>Investimento inicial</p>
+      </div>
+
+      <span class="arrow">→</span>
+
+      <div class="flow-step">
+        <i class="fas fa-chart-line"></i>
+        <p>Crescimento da empresa</p>
+      </div>
+
+      <span class="arrow">→</span>
+
+      <div class="flow-step">
+        <i class="fas fa-sack-dollar"></i>
+        <p>Geração de lucro</p>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
 <!-- PROFISSÕES -->
 <section>
   <div class="container">
-    <h2>Profissões do Mercado</h2>
-    <ul>
-      <li>Economista</li>
-      <li>Corretor</li>
-      <li>Analista financeiro</li>
-    </ul>
+
+    <div class="section-header">
+      <h2>Profissões do Mercado</h2>
+      <p>Quem trabalha dentro desse sistema</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Economista</h3>
+        <p>Analisa cenários econômicos e tendências.</p>
+        <span class="salary">R$ 5k – 15k</span>
+      </div>
+
+      <div class="card">
+        <h3>Corretor</h3>
+        <p>Intermedia investimentos e orienta clientes.</p>
+        <span class="salary">Variável</span>
+      </div>
+
+      <div class="card">
+        <h3>Analista Financeiro</h3>
+        <p>Avalia oportunidades e riscos de investimento.</p>
+        <span class="salary">R$ 4k – 12k</span>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
@@ -160,11 +326,22 @@
 <section id="riscos">
   <div class="container">
     <h2>Riscos</h2>
-    <ul>
-      <li>Crises</li>
-      <li>Oscilações</li>
-      <li>Erros de decisão</li>
-    </ul>
+    <ul class="riscos-list">
+  <li>
+    <i class="fas fa-triangle-exclamation"></i>
+    <span>Crises econômicas</span>
+  </li>
+
+  <li>
+    <i class="fas fa-chart-line"></i>
+    <span>Oscilações do mercado</span>
+  </li>
+
+  <li>
+    <i class="fas fa-brain"></i>
+    <span>Erros de decisão</span>
+  </li>
+</ul>
   </div>
 </section>
 
