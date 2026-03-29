@@ -5,6 +5,30 @@ body {
   color: white;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.impact,
+.highlight,
+.cta,
+.refs {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -12,11 +36,27 @@ body {
 }
 
 .hero {
+  text-align: center;
   height: 90vh;
   display: flex;
   align-items: center;
   padding: 50px;
   background: linear-gradient(135deg, #00ff88, #003d2b);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.impact,
+.highlight,
+.cta,
+.logos,
+.refs {
+  text-align: center;
 }
 
 button {
@@ -28,49 +68,43 @@ button {
 }
 
 .logos {
-  background: #0d0d0d;
-  padding: 40px 20px;
+  background: #ffffff;
+  padding: 70px 20px;
   text-align: center;
 }
 
 .logos-title {
-  color: #888;
-  margin-bottom: 20px;
+  color: #666;
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .logos-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
 .logos-container img {
-  height: 40px;
-  opacity: 0.7;
+  height: 60px; /* maior */
+  object-fit: contain;
   transition: 0.3s;
-  filter: grayscale(100%);
 }
 
+/* efeito premium */
 .logos-container img:hover {
-  opacity: 1;
-  filter: grayscale(0%);
   transform: scale(1.1);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 50px;
-  gap: 20px;
 }
 
 .cards {
   display: flex;
+  justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .card {

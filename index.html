@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bovespa Experience</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>BovespaX</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- NAVBAR -->
 <header class="navbar">
   <h2>BovespaX</h2>
   <nav>
@@ -20,95 +21,114 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div>
+  <div class="container">
     <h1>Entenda a B3 de forma simples 💸</h1>
     <p>A bolsa de valores do Brasil explicada como você nunca viu.</p>
     <button onclick="scrollToSection()">Explorar</button>
   </div>
 </section>
 
+<!-- LOGOS -->
 <section class="logos">
-  <p class="logos-title">Trabalho desenvolvido com base em:</p>
+  <div class="container">
+    <p class="logos-title">TRABALHO DESENVOLVIDO COM BASE EM:</p>
 
-  <div class="logos-container">
-    <img src="img/unasp.png" alt="UNASP">
-    <img src="img/marcosmatico.png" alt="MarcosMatico">
-    <img src="img/bahia.png" alt="Bahia">
+    <div class="logos-container">
+      <img src="img/unasp.png" alt="UNASP">
+      <img src="img/marcosmatico.png" alt="MarcosMatico">
+      <img src="img/bahia.png" alt="Bahia">
+    </div>
   </div>
 </section>
 
 <!-- SOBRE -->
-<section id="sobre" class="grid">
-  <div>
-    <h2>O que é a B3?</h2>
-    <p>
-      A B3 é a bolsa de valores brasileira onde são negociadas ações, moedas e commodities.
-      Ela conecta empresas que precisam de investimento com pessoas que querem investir.
-    </p>
-  </div>
+<section id="sobre">
+  <div class="container grid">
 
-  <div class="card">
-    <h3>Na prática:</h3>
-    <ul>
-      <li>Empresas vendem ações</li>
-      <li>Investidores compram</li>
-      <li>Ambos podem lucrar</li>
-    </ul>
+    <div>
+      <h2>O que é a B3?</h2>
+      <p>
+        A B3 é a bolsa de valores brasileira onde são negociadas ações, moedas e commodities.
+        Ela conecta empresas que precisam de investimento com pessoas que querem investir.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Na prática:</h3>
+      <ul>
+        <li>Empresas vendem ações</li>
+        <li>Investidores compram</li>
+        <li>Ambos podem lucrar</li>
+      </ul>
+    </div>
+
   </div>
 </section>
 
 <!-- IMPACTO -->
 <section class="impact">
-  <h2>Impacto na vida dos brasileiros</h2>
-  <div class="cards">
-    <div class="card">Afeta preços de produtos</div>
-    <div class="card">Influência empregos</div>
-    <div class="card">Impacta economia</div>
+  <div class="container">
+    <h2>Impacto na vida dos brasileiros</h2>
+
+    <div class="cards">
+      <div class="card">Afeta preços de produtos</div>
+      <div class="card">Influência empregos</div>
+      <div class="card">Impacta economia</div>
+    </div>
   </div>
 </section>
 
-<!-- COMMODITIES -->
-<section class="grid" id="mercado">
-  <div>
-    <h2>Commodities</h2>
-    <ul>
-      <li>Petróleo</li>
-      <li>Ouro</li>
-      <li>Soja</li>
-      <li>Minério de ferro</li>
-    </ul>
-  </div>
+<!-- MERCADO -->
+<section id="mercado">
+  <div class="container grid">
 
-  <div>
-    <h2>Moedas</h2>
-    <ul>
-      <li>Dólar (USD)</li>
-      <li>Euro (EUR)</li>
-      <li>Real (BRL)</li>
-    </ul>
+    <div>
+      <h2>Commodities</h2>
+      <ul>
+        <li>Petróleo</li>
+        <li>Ouro</li>
+        <li>Soja</li>
+        <li>Minério de ferro</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Moedas</h2>
+      <ul>
+        <li>Dólar (USD)</li>
+        <li>Euro (EUR)</li>
+        <li>Real (BRL)</li>
+      </ul>
+    </div>
+
   </div>
 </section>
 
-<!-- ALTA BAIXA -->
+<!-- ALTA / BAIXA -->
 <section class="highlight">
-  <h2>Alta vs Baixa</h2>
-  <p><strong>Alta:</strong> crescimento econômico</p>
-  <p><strong>Baixa:</strong> incerteza e queda</p>
+  <div class="container">
+    <h2>Alta vs Baixa</h2>
+    <p><strong>Alta:</strong> crescimento econômico</p>
+    <p><strong>Baixa:</strong> incerteza e queda</p>
+  </div>
 </section>
 
 <!-- INVESTIDORES -->
 <section id="investidores">
-  <h2>Tipos de Investidores</h2>
-  <div class="cards">
-    <div class="card">Conservador</div>
-    <div class="card">Moderado</div>
-    <div class="card">Arrojado</div>
+  <div class="container">
+    <h2>Tipos de Investidores</h2>
+
+    <div class="cards">
+      <div class="card">Conservador</div>
+      <div class="card">Moderado</div>
+      <div class="card">Arrojado</div>
+    </div>
   </div>
 </section>
 
 <!-- MUNDO -->
-<section class="grid">
-  <div>
+<section>
+  <div class="container">
     <h2>Relação Global</h2>
     <p>
       A B3 reage a eventos globais como crises econômicas e decisões de grandes países.
@@ -118,44 +138,54 @@
 
 <!-- CAPITAL -->
 <section>
-  <h2>Acumulação de Capital</h2>
-  <p>Investir dinheiro para gerar mais lucro ao longo do tempo.</p>
+  <div class="container">
+    <h2>Acumulação de Capital</h2>
+    <p>Investir dinheiro para gerar mais lucro ao longo do tempo.</p>
+  </div>
 </section>
 
 <!-- PROFISSÕES -->
 <section>
-  <h2>Profissões do Mercado</h2>
-  <ul>
-    <li>Economista</li>
-    <li>Corretor</li>
-    <li>Analista financeiro</li>
-  </ul>
+  <div class="container">
+    <h2>Profissões do Mercado</h2>
+    <ul>
+      <li>Economista</li>
+      <li>Corretor</li>
+      <li>Analista financeiro</li>
+    </ul>
+  </div>
 </section>
 
 <!-- RISCOS -->
 <section id="riscos">
-  <h2>Riscos</h2>
-  <ul>
-    <li>Crises</li>
-    <li>Oscilações</li>
-    <li>Erros de decisão</li>
-  </ul>
+  <div class="container">
+    <h2>Riscos</h2>
+    <ul>
+      <li>Crises</li>
+      <li>Oscilações</li>
+      <li>Erros de decisão</li>
+    </ul>
+  </div>
 </section>
 
 <!-- CTA -->
 <section class="cta">
-  <h2>Entenda o mercado. Invista com consciência.</h2>
+  <div class="container">
+    <h2>Entenda o mercado. Invista com consciência.</h2>
+  </div>
 </section>
 
 <!-- REFERÊNCIAS -->
 <section class="refs">
-  <h2>Referências</h2>
-  <ul>
-    <li>B3 (Brasil, Bolsa, Balcão)</li>
-    <li>Banco Central do Brasil</li>
-    <li>Investopedia</li>
-    <li>FGV</li>
-  </ul>
+  <div class="container">
+    <h2>Referências</h2>
+    <ul>
+      <li>B3 (Brasil, Bolsa, Balcão)</li>
+      <li>Banco Central do Brasil</li>
+      <li>FGV</li>
+      <li>Investopedia</li>
+    </ul>
+  </div>
 </section>
 
 <script src="script.js"></script>
