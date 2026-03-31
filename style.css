@@ -17,7 +17,7 @@ body {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 90px 0;
 }
 
 /* NAVBAR */
@@ -127,7 +127,7 @@ button:hover {
 /* LOGOS */
 .logos {
   background: #F5F7F6;
-  padding: 80px 0;
+  padding: 35px 0;
 }
 
 .logos-title {
@@ -159,7 +159,7 @@ button:hover {
 
 /* SECTIONS */
 section {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 
 .section-header {
